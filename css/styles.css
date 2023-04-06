@@ -268,7 +268,7 @@ h6 {
 }
 /* Portfolio */
 .portfolio{
-  padding: 96px 156px 120px 156px;
+  padding: 96px 120px;
 }
 /* portfolio buttons */
 .portfolio-filters{
@@ -349,6 +349,10 @@ h6 {
   font-size: 16px;
   line-height: 1.5;
   padding: 100px 0;
+}
+.footer-logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text{
   width: 264px;
