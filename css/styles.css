@@ -48,7 +48,7 @@ h6 {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 156px;
+  padding: 0 156px;
 
 }
 .header-box{
@@ -86,7 +86,7 @@ h6 {
   color: #f4f4fd;
 }
 /* Navigation */
-.navigation-links{
+.navigation-list{
   display: flex;
 }
 .navigation-link-item{
@@ -97,7 +97,10 @@ h6 {
 
   color: var(--main-title-color);
 }
-.navigation-links > li:nth-child(-n + 2){
+.navigation-links{
+  padding: 24px 0;
+}
+.navigation-links:nth-child(n-1){
   margin-right: 40px;
 }
 .navigation-link-item:hover,
