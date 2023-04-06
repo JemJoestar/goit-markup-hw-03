@@ -9,10 +9,7 @@ html {
 ::after {
   box-sizing: inherit;
 }
-* {
-  padding: 0;
-  margin: 0;
-}
+
 :root {
   --primary-bg-color: #ffffff;
   --main-text-color: #434455;
@@ -43,6 +40,8 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
+  padding: 0;
   color: var(--main-title-color);
 }
 
@@ -60,6 +59,8 @@ h6 {
   margin: 0 auto;
 }
 .list {
+  margin: 0;
+  padding:0;
   list-style: none;
 }
 
